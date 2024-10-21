@@ -545,35 +545,4 @@ video {
   display: none;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flex {
-  display: flex;
-}
-
-.h-8 {
-  height: 2rem;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.max-w-screen-lg {
-  max-width: 1024px;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 /* Import custom CSS files */

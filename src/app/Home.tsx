@@ -9,6 +9,9 @@ const Home = () => {
         <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
         <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />
       </section>
+
+      <section>
+      </section>
     </>
   )
 }

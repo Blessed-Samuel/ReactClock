@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: darkslategray;
-  font-family: -apple-system, 'Manrope',
+  background-color: 1A1A1A;
+  font-family: -apple-system, 'Lexend',
     sans-serif;
     font-optical-sizing: auto;
     font-style: normal;

@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #1A1A1A;
-  font-family: -apple-system, 'Lexend',
+  font-family: -apple-system, 'Odibee Sans',
     sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1669286081720-49743b35e882?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
